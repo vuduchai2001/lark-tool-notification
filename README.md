@@ -30,16 +30,7 @@ Script `lark_uia_log_all.ahk` tự động ẩn các popup thông báo từ ứn
 
 1. Tải repository này về máy (hoặc clone nếu có Git):
    ```bash
-   git clone https://github.com/Descolada/UIA-v2.git
-   ```
-   Hoặc tải file ZIP và giải nén
-
-2. Đảm bảo cấu trúc thư mục như sau:
-   ```
-   UIA-v2-main/
-   ├── Lib/
-   │   └── UIA.ahk
-   └── lark_uia_log_all.ahk
+   git clone https://github.com/vuduchai2001/lark-tool-notification
    ```
 
 #### Bước 3: Cấu hình script
