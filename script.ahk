@@ -7,7 +7,7 @@
 hiddenHwnds := Map()
 
 ; Các Từ cần chặn
-blockedTexts := ["Bùi Thị Phương Trinh", "Bùi Thị Bảo Anh"]
+blockedTexts := ["Phạm Huyền My", "Bùi Thị Bảo Anh"]
 
 SetTimer CheckLarkPopup, 10
 return
