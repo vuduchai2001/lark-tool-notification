@@ -2,7 +2,7 @@
 
 ### Mô tả
 
-Script `lark_uia_log_all.ahk` tự động ẩn các popup thông báo từ ứng dụng Lark khi phát hiện các text cụ thể. Script sử dụng UIA-v2 để quét nội dung của các cửa sổ popup và ẩn chúng ngay lập tức khi tìm thấy text trong danh sách chặn.
+Script `script.ahk` tự động ẩn các popup thông báo từ ứng dụng Lark khi phát hiện các text cụ thể. Script sử dụng UIA-v2 để quét nội dung của các cửa sổ popup và ẩn chúng ngay lập tức khi tìm thấy text trong danh sách chặn.
 
 ### Yêu cầu hệ thống
 
@@ -35,9 +35,9 @@ Script `lark_uia_log_all.ahk` tự động ẩn các popup thông báo từ ứn
 
 #### Bước 3: Cấu hình script
 
-1. Mở file `lark_uia_log_all.ahk` bằng Notepad hoặc bất kỳ text editor nào
+1. Mở file `script.ahk`
 
-2. Tùy chỉnh danh sách text cần chặn (dòng 9):
+2. Tùy chỉnh danh sách text cần chặn (dòng 10):
    ```ahk
    blockedTexts := ["Phạm Huyền My", "Bùi Thị Bảo Anh"]
    ```
@@ -48,21 +48,21 @@ Script `lark_uia_log_all.ahk` tự động ẩn các popup thông báo từ ứn
 #### Bước 4: Chạy script
 
 **Cách 1: Chạy trực tiếp**
-- Double-click vào file `lark_uia_log_all.ahk`
+- Double-click vào file `script.ahk`
 - Script sẽ chạy ngầm trong background
 
 **Cách 3: Chạy từ Command Prompt**
 ```cmd
-cd "đường-dẫn-đến-thư-mục-UIA-v2"
-"C:\Program Files\AutoHotkey\v2\AutoHotkey.exe" lark_uia_log_all.ahk
+cd "đường-dẫn-đến-thư-mục"
+"C:\Program Files\AutoHotkey\v2\AutoHotkey.exe" script.ahk
 ```
-Lưu ý: Thay `đường-dẫn-đến-thư-mục-UIA-v2` bằng đường dẫn thực tế trên máy của bạn.
+Lưu ý: Thay `đường-dẫn-đến-thư-mục` bằng đường dẫn thực tế trên máy của bạn.
 
 ### Cách sử dụng
 
 1. Đảm bảo ứng dụng Lark đang chạy
 
-2. Chạy script `lark_uia_log_all.ahk`
+2. Chạy script `script.ahk`
 
 3. Script sẽ tự động:
    - Kiểm tra các popup của Lark mỗi 10ms
