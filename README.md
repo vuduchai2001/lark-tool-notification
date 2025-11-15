@@ -51,7 +51,7 @@ Script `script.ahk` tự động ẩn các popup thông báo từ ứng dụng L
 - Double-click vào file `script.ahk`
 - Script sẽ chạy ngầm trong background
 
-**Cách 3: Chạy từ Command Prompt**
+**Cách 2: Chạy từ Command Prompt**
 ```cmd
 cd "đường-dẫn-đến-thư-mục"
 "C:\Program Files\AutoHotkey\v2\AutoHotkey.exe" script.ahk
